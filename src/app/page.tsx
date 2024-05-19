@@ -1,4 +1,5 @@
 "use client";
+import LogoMain from "@/components/logo-main";
 import Navbar from "@/components/navbar";
 import NFTMinter from "@/components/nft-minter";
 import TitleMain from "@/components/title-main";
@@ -14,6 +15,7 @@ export default function Home() {
           <Navbar/>
           <TitleMain/>
           {/* <NFTMinter/> */}
+          <LogoMain/>
         </WalletContextProvider>
       </NewContextProvider>
     </div>

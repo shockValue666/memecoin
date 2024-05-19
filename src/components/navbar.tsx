@@ -10,7 +10,7 @@ import Link from 'next/link';
 const Navbar = () => {
   return (
     <div className='flex w-full justify-around'>
-        <Link href="/">
+        <Link href="https://x.com/Rocky_onsol" target='_blank'>
             <FaSquareXTwitter size={50} />
         </Link> 
         <Link href={""}>
