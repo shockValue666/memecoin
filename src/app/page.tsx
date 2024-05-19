@@ -1,5 +1,6 @@
 "use client";
 import CallToActionButton from "@/components/call-to-action-button";
+import Footer from "@/components/footer";
 import LogoMain from "@/components/logo-main";
 import Navbar from "@/components/navbar";
 import NFTMinter from "@/components/nft-minter";
@@ -19,7 +20,10 @@ export default function Home() {
           {/* <NFTMinter/> */}
           <LogoMain/>
           <SmallText/>
-          <CallToActionButton/>
+          <div className="w-full flex justify-center">
+            <CallToActionButton/>
+          </div>
+          <Footer/>
         </WalletContextProvider>
       </NewContextProvider>
     </div>
