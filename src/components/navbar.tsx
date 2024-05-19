@@ -13,7 +13,7 @@ const Navbar = () => {
         <Link href="https://x.com/Rocky_onsol" target='_blank'>
             <FaSquareXTwitter size={50} />
         </Link> 
-        <Link href={""}>
+        <Link href={"https://t.me/+1jMX_Jdzv0hjN2I8"} target='_blank'>
             <FaTelegram size={50} />
         </Link>
         <Link href="/">
