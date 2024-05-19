@@ -1,8 +1,12 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Jura } from "next/font/google";
 import "./globals.css";
+import WalletContextProvider from "@/lib/context/WalletContextProvider";
+import { ToastContainer } from 'react-toastify';
+import NewContextProvider from "@/lib/context/NewContextProvider";
 
-const inter = Inter({ subsets: ["latin"] });
+
+const inter = Jura({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,7 +20,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+        <body className={inter.className}>
+          {/* <WalletContextProvider> */}
+            <ToastContainer />
+            {children}
+          {/* </WalletContextProvider> */}
+        </body>
     </html>
   );
 }
