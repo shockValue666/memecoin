@@ -1,4 +1,5 @@
 "use client";
+import Address from "@/components/address";
 import CallToActionButton from "@/components/call-to-action-button";
 import Footer from "@/components/footer";
 import LogoMain from "@/components/logo-main";
@@ -23,6 +24,7 @@ export default function Home() {
           <div className="w-full flex justify-center">
             <CallToActionButton/>
           </div>
+          <Address/>
           <Footer/>
         </WalletContextProvider>
       </NewContextProvider>

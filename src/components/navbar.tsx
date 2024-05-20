@@ -16,7 +16,7 @@ const Navbar = () => {
         <Link href={"https://t.me/+1jMX_Jdzv0hjN2I8"} target='_blank'>
             <FaTelegram size={50} />
         </Link>
-        <Link href="/">
+        <Link href="https://pump.fun/HhnpF8jEeZT9Zfw4EefacR4RrXbc59Tu747LwtaJwwJY">
             <Image width={50} height={50} src={pumpdotfun} className='bg-white rounded-lg' alt="DexScreener Logo" />
         </Link>
 
