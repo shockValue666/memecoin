@@ -13,6 +13,7 @@
     "@solana/wallet-adapter-react": "^0.15.35",
     "@solana/wallet-adapter-react-ui": "^0.9.35",
     "@solana/wallet-adapter-wallets": "^0.19.32",
+    "@vercel/analytics": "^1.2.2",
     "next": "14.2.3",
     "pino-pretty": "^11.0.0",
     "react": "^18",

@@ -4,7 +4,7 @@ import "./globals.css";
 import WalletContextProvider from "@/lib/context/WalletContextProvider";
 import { ToastContainer } from 'react-toastify';
 import NewContextProvider from "@/lib/context/NewContextProvider";
-
+import { Analytics } from "@vercel/analytics/react"
 
 const inter = Jura({ subsets: ["latin"] });
 
@@ -25,6 +25,7 @@ export default function RootLayout({
             <ToastContainer />
             {children}
           {/* </WalletContextProvider> */}
+          <Analytics/>
         </body>
     </html>
   );
