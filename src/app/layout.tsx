@@ -9,8 +9,8 @@ import { Analytics } from "@vercel/analytics/react"
 const inter = Jura({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "$ROCKY",
-  description: "HARD 🍆💦",
+  title: "TREMP ON DRUGS",
+  description: "⛷️🚬💊 ",
 };
 
 export default function RootLayout({
