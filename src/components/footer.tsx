@@ -8,16 +8,16 @@ const Footer = () => {
     <footer className="bg-black text-white text-center p-4 mt-10">
       <div className="container mx-auto flex justify-around w-full ">
         <p className="text-sm mb-2">
-          $Rocky <a href="mailto:info@example.com" className="underline"></a>
+          $ToD <a href="mailto:info@example.com" className="underline"></a>
         </p>
         {/* <p className="text-sm mb-2">
           Visit our <Link href="/about" target='_blank' className="underline"></Link> page for more information.
         </p> */}
         <div className="flex gap-3 text-xs">
-            <Link href="https://x.com/Rocky_onsol" target='_blank'>
+            <Link href="https://x.com/" target='_blank'>
                 <FaSquareXTwitter size={25} />
             </Link> 
-            <Link href={"https://t.me/+1jMX_Jdzv0hjN2I8"} target='_blank'>
+            <Link href={"https://t.me/"} target='_blank'>
                 <FaTelegram size={25} />
             </Link>
             <Link href="/">
