@@ -10,6 +10,7 @@ import TitleMain from "@/components/title-main";
 import NewContextProvider from "@/lib/context/NewContextProvider";
 import WalletContextProvider from "@/lib/context/WalletContextProvider";
 import Image from "next/image";
+import { WalletMultiButton } from '@solana/wallet-adapter-react-ui';
 
 export default function Home() {
   return (

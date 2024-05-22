@@ -4,8 +4,8 @@ const SmallText = () => {
   return (
     <div className='text-center my-8 text-xl'>
         <p>
-            $Rocky is a cat holding a party where Chads and degens are welcomed🥳🎉 <br />
-            Rocky frens decide how long rocky is gonna rock in his party #Rocky 💰
+            Tremp loves partying and being high like $ToD price🥳🎉 <br />
+            MAGA junkie supporters decide how long tremp is gonna keep getting high #TrempOD 💰
         </p>
     </div>
   )

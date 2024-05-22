@@ -10,7 +10,7 @@ interface WalletContextProviderProps {
 
 const WalletContextProvider:React.FC<WalletContextProviderProps> = ({ children }) => {
 
-    const endpoint = web3.clusterApiUrl('devnet');
+    const endpoint = web3.clusterApiUrl('mainnet-beta');
     const wallets = [
         new walletAdapterWallets.PhantomWalletAdapter()
     ];

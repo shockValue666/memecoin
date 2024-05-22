@@ -10,13 +10,13 @@ import Link from 'next/link';
 const Navbar = () => {
   return (
     <div className='flex w-full justify-around'>
-        <Link href="https://x.com/Rocky_onsol" target='_blank'>
+        <Link href="https://x.com/" target='_blank'>
             <FaSquareXTwitter size={50} />
         </Link> 
-        <Link href={"https://t.me/+1jMX_Jdzv0hjN2I8"} target='_blank'>
+        <Link href={"https://t.me/"} target='_blank'>
             <FaTelegram size={50} />
         </Link>
-        <Link href="https://pump.fun/HhnpF8jEeZT9Zfw4EefacR4RrXbc59Tu747LwtaJwwJY">
+        <Link href="https://pump.fun/">
             <Image width={50} height={50} src={pumpdotfun} className='bg-white rounded-lg' alt="DexScreener Logo" />
         </Link>
 

@@ -5,7 +5,7 @@ import pumpdotfun from '../../public/pumpdotfun/pumpdotfun.svg'
 
 const CallToActionButton = () => {
   return (
-    <Link href="https://pump.fun/HhnpF8jEeZT9Zfw4EefacR4RrXbc59Tu747LwtaJwwJY" 
+    <Link href="https://pump.fun" 
     className='inline-block'
     // className='flex items-center gap-4 justify-center rounded-xl bg-orange-500 hover:bg-orange-600 focus:ring-4 focus:ring-orange-300 focus:outline-none focus:ring-opacity-50 shadow-lg transform transition hover:scale-105 duration-300 ease-in-out'
     >
