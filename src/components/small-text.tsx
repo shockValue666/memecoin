@@ -5,7 +5,7 @@ const SmallText = () => {
     <div className='text-center my-8 text-xl'>
         <p>
             Tremp loves partying and being high like $ToD price🥳🎉 <br />
-            MAGA junkie supporters decide how long tremp is gonna keep getting high #TrempOD 💰
+            MAGA supporters decide how long tremp is gonna keep getting high #TrempOD 💰
         </p>
     </div>
   )
